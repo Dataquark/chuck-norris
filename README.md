@@ -1,5 +1,5 @@
 # Haqoid al-Absurdiya
 
-Generates absurd fact in Uzbek for a chosen name
+Generates absurd facts in Uzbek for a chosen name
 
 
