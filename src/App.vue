@@ -27,7 +27,7 @@ export default {
     };
   },
   mounted() {
-    fetch("https://api.npoint.io/c46978f00629a70cfbf3/facts")
+    fetch("https://api.npoint.io/93927a01a065ebea6fa9/facts")
       .then((res) => res.json())
       .then((data) => (this.facts = data))
       .catch((err) => console.log(err.message));
@@ -38,6 +38,7 @@ export default {
         Math.floor(Math.random() * this.facts.length)
       ]["fact"];
       this.show = true;
+      console.log(this.facts.length);
     },
   },
 };
